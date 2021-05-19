@@ -20,4 +20,12 @@ dd {
   margin: 0;
 }
 
+a {
+    text-decoration:  none;
+}
+
+header {
+    background: url(../images/header-bg.jpeg) center;
+  
+}
 
