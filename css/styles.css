@@ -31,6 +31,7 @@ a {
 
 body{ 
   background: url(../images/header-bg.jpeg);
+  font-family: 'Open Sans', sans-serif;
 }
 
 .container-flex {
