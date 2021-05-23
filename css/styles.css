@@ -35,6 +35,9 @@ body{
 
 .container-flex {
   display: flex;
+}
+
+header {
   padding: 0 10rem;
 }
 
