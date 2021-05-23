@@ -43,15 +43,19 @@ header {
 
 header.container-flex > div{
   flex: 1;
+  align-content: flex-end;
+  align-self: end;
 }
 
 .logo{
   width: 200px;
 }
+
 nav {
   display: flex;
   justify-content: space-between;
-  align-self: end;
+  padding-bottom: .5rem;
+
 }
 
 nav a {
