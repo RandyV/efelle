@@ -24,8 +24,13 @@ a {
     text-decoration:  none;
 }
 
+body{ 
+  background: url(../images/header-bg.jpeg);
+}
+
 header {
-    background: url(../images/header-bg.jpeg) center;
+    padding: 0 20rem;
   
 }
+
 
