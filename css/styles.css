@@ -67,3 +67,29 @@ nav a {
   color: #353330;
   padding: 1.5rem  .5rem 1.5rem 0;
 }
+
+@media only screen and (max-width: 1600px) {
+  header.container-flex > div{
+    flex: auto;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  header {
+    padding: 0 1rem;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  header.container-flex > div{
+    flex: 1;
+    align-self: auto;
+  }
+  header.container-flex {
+    flex-direction: column;
+  }
+
+  header {
+    padding: 0 1.5rem;
+  }
+}
