@@ -21,6 +21,10 @@ dd {
   margin: 0;
 }
 
+img {
+  max-width: 100%;
+}
+
 a {
     text-decoration:  none;
 }
@@ -29,9 +33,12 @@ body{
   background: url(../images/header-bg.jpeg);
 }
 
-header {
-    padding: 0 20rem;
-  
+.container-flex {
+  display: flex;
+  padding: 0 10rem;
 }
 
+header.container-flex > div{
+  flex: 1;
+}
 
