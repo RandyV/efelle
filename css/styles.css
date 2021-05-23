@@ -45,7 +45,9 @@ header.container-flex > div{
   flex: 1;
 }
 
-
+.logo{
+  width: 200px;
+}
 nav {
   display: flex;
   justify-content: space-between;
