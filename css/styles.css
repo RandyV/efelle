@@ -45,3 +45,19 @@ header.container-flex > div{
   flex: 1;
 }
 
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-self: end;
+}
+
+nav a {
+  color: #384149;
+}
+.phone{ 
+  display: flex;
+  justify-content: end;
+  color: #353330;
+  padding: 1.5rem  1.5rem 0;
+}
