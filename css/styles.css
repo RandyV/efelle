@@ -125,6 +125,39 @@ nav a {
     border: 1px solid #353330;
 }
 
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    width: 425px;
+    margin-bottom: 3rem;
+}
+
+.card a {
+    padding: 5rem 3.5rem;
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    border-radius: 50%;
+    font-family: 'Teko', sans-serif;
+}
+
+.card a hr {
+    border: 1px solid #ffffff;
+    width: 1.5rem;
+}
+
+.card-kitchen {
+    background: url("/images/kitchens.jpeg") no-repeat;
+    background-size: cover;
+}
+
 
 /* Media Targets */
 
