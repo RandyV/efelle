@@ -181,6 +181,47 @@ nav a {
     background-size: cover;
 }
 
+footer {
+    background-color: #232527;
+    color: #e3e2e4;
+    padding: 3rem 5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer>div {
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+footer div:last-child() {
+    align-items: flex-end;
+    display: flex;
+}
+
+footer a {
+    color: #436188;
+}
+
+footer .phone {
+    color: #e3e2e4;
+    padding: 0;
+}
+
+.copy-right {
+    padding-top: 2rem;
+}
+
+.legal,
+.copy-right {
+    font-size: 0.75em;
+}
+
+.social {
+    text-align: right;
+    padding-top: 1rem;
+}
+
 
 /* Media Targets */
 
@@ -215,5 +256,14 @@ nav a {
     }
     .phone {
         justify-content: flex-start;
+    }
+    .social {
+        text-align: left;
+    }
+    footer {
+        flex-direction: column;
+    }
+    .legal {
+        margin-bottom: 2rem;
     }
 }
